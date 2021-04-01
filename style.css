@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #A7D7C5 ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 600px;
+    background-color: #7C9F92;
+}
+
+.box1 {
+    position: relative;
+    background-color: #A7D7C5;
+    width: 320px;
+    height: 320px;
+    border-radius: 40px;
+    top: 0;
+    transform: rotate(45deg);
+    top: -100px;
+    left: -80px;
+}
+
+.box2 {
+    position: relative;
+    background-color: #A7D7C5;
+    width: 320px;
+    height: 320px;
+    border-radius: 40px;
+    transform: rotate(45deg);
+    top: 100px;
+    left: 580px;
+}
+form {
+    border-radius: 32px;
+    padding: 20px;
+    background-color: #F6FBF9;
+    width: 455px;
+    height: 455px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+form h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #212B27;
+}
+form h3 {
+    margin: 0 10%;
+    font-size: 0.8em;
+    text-align: center;
+    opacity: 90%;
+    color: #32403B;
+}
+
+.social {
+    text-align: center;
+    margin: 20px;
+}
+
+form input[type=text], form input[type=password] {
+    border: 1px solid #ffffff;
+    width: 100%;
+    height: 40px;
+    margin: 15px 0;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+form input[type=submit] {
+    font-size: 1.2em;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #A7D7C5;
+    color: #ffffff;
+    border: 0;
+    transition: 0.5s;
+}
+
+form input[type=submit]:hover{
+    background-color: #7C9F92;
+}
+
+form input[type=text]:focus{
+    outline: 0;
+}
+
+form input[type=password]:focus{
+    outline: 0;
+}
+
+.f-icon {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 0.4rem;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.t-icon {
+    background: linear-gradient(to right, #56a7f2, #468aca);
+    font-size: 1em;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: blue;
+    padding: 0.4rem;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.icons {
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.icons a{
+    color: white;
+    text-decoration: none;
+}
